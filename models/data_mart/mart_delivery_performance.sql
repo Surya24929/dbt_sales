@@ -2,7 +2,7 @@
 
 {{
     config(
-        materialized = 'table',
+        materialized = 'view',
         schema = 'gold'
     )
 }}
